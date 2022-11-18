@@ -19,14 +19,22 @@ class _menuState extends State<menu> {
         child: Column(
           children: [
             DrawerHeader(
-                decoration: BoxDecoration(color: Colors.black),
-                child: UserAccountsDrawerHeader(
-                    currentAccountPicture: CircleAvatar(
-                      backgroundImage: NetworkImage(
-                          "https://e7.pngegg.com/pngimages/513/311/png-clipart-silhouette-male-silhouette-animals-head-thumbnail.png"),
-                    ),
-                    accountName: Text("Asahel Rois"),
-                    accountEmail: Text("arois7777@gmail.com"))),
+              decoration: BoxDecoration(color: Colors.black),
+              child: UserAccountsDrawerHeader(
+                currentAccountPicture: CircleAvatar(
+                  backgroundImage: NetworkImage(
+                      "https://e7.pngegg.com/pngimages/513/311/png-clipart-silhouette-male-silhouette-animals-head-thumbnail.png"),
+                ),
+                accountName: Text(
+                  "Asahel Rois",
+                  style: TextStyle(color: Colors.white),
+                ),
+                accountEmail: Text(
+                  "arois7777@gmail.com",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            ),
             Divider(),
             Expanded(
                 child: ListView(
