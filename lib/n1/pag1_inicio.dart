@@ -12,9 +12,10 @@ class _inicioState extends State<inicio> {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
+          heightFactor: 1.5,
           child: Image(
               image: NetworkImage(
-                  "https://www.pngarts.com/files/3/Shopping-Cart-PNG-Download-Image.png"))),
+                  "https://previews.123rf.com/images/poemsuk/poemsuk1601/poemsuk160100021/51005477-tienda-de-ropa-boutique-cubierta-de-telas-de-los-hombres-de-moda-sastrer%C3%ADa-exterior-del-edificio-ilu.jpg"))),
     );
   }
 }

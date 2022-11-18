@@ -61,7 +61,7 @@ class _misproductosState extends State<misproductos> {
                               })
                         ]).show();
                   },
-                  icon: Icon(Icons.save),
+                  icon: Icon(Icons.add_shopping_cart),
                   label: Text("Comprar"))
             ],
           ),
